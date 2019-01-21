@@ -9,57 +9,128 @@
     <meta name="author" content="">
 	<link rel="icon" href="nandanvinjamurylogo.ico">
 	<title>Portfolio</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/logo-nav.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <img src="nandanvinjamurylogo.png" width="40" height="40" alt="">
-	  <div class="container">
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-3">
-            <li class="nav-item mx-1 bg-secondary">
-              <a class="nav-link px-5" href="index.html" style="font-family:cambria;">HOME
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active mx-1 bg-secondary border border-warning">
-              <a class="nav-link px-5" href="portfoliopage.html" style="font-family:cambria;">PORTFOLIO
-			    <span class="sr-only">(current)</span>
-			  </a>
-            </li>
-            <li class="nav-item mx-1 bg-secondary">
-              <a class="nav-link px-5" href="techblog.html" style="font-family:cambria;">BLOG
-			    <span class="sr-only">(current)</span>
-			  </a>
-            </li>
-            <li class="nav-item mx-1 bg-secondary">
-              <a class="nav-link px-5" href="contactpage.html" style="font-family:cambria;">CONTACT ME
-			    <span class="sr-only">(current)</span>
-			  </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<div class="container nav">
+		<div class="row m1">
+			<img class="logo img" src="nandanvinjamurylogo.png" width="40" height="40">
+			<div class="col-sm-3">
+				<a href="index.html">
+				<div class="nav-item">
+					Home
+				</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="portfoliopage.html">
+				<div class="nav-item active">
+					Portfolio
+				</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="techblog.html">
+				<div class="nav-item">
+					Tech Blog
+				</div>
+				</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="contactpage.html">
+				<div class="nav-item">
+					Contact Me
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
 
     <!-- Page Content -->
+    <h1 class="heading bold mb">Hackathon Projects</h1>
     <div class="container">
-      <h1 class="mt-5 ml-5" style="font-family:cambria;"><strong>Hackathon Projects</strong></h1>
-      <p class="ml-5">MORE COMING SOON!</p>
-	  <h1 class="mt-5 ml-5" style="font-family:cambria;"><strong>Solo Projects</strong></h1>
-	  <p class="ml-5">MORE COMING SOON!</p>
-	  <h1 class="mt-5 ml-5" style="font-family:cambria;"><strong>Senior Project</strong></h1>
-	  <p class="ml-5">MORE COMING SOON!</p>
+    	<div class="row">
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj1.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;PC Download:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-success mb bold" href="Super Hell Warriors.zip">
+    				Super Hell Warriors    			
+    			</a>
+    		</div>
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj2.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;In Browser:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-primary mb bold" href="https://nandanv123.itch.io/hydrohunters">
+    				HydroHunters    			
+    			</a>
+    		</div>
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj3.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;PC Download:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-success mb bold" href="Spider Beach.zip">
+    				Spider Beach    			
+    			</a>			
+    		</div>
+    	</div>
     </div>
+    <div class="clear"></div>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj4.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;In Browser:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-primary mb bold" href="https://jgregfong.itch.io/ninja-star">
+    				Ninja Star    			
+    			</a>
+    		</div>
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj5.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;PC Download:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-success mb bold" href="MrMustache.zip">
+    				Mr Mustache and his Minions    			
+    			</a>
+    		</div>
+    		<div class="col-sm-4">
+    			<img class="img-responsive img-thumbnail my" src="proj6.png">
+    			<p class="bold mb adjustup float-left">&nbsp;&nbsp;PC Download:&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    			<a class="btn btn-success mb bold" href="FullGame.zip">
+    				S'more Madness		
+    			</a>			
+    		</div>
+    	</div>
+    </div>
+    <div class="clear"></div>
+	<h1 class="heading mt bold">Solo Projects</h1>
+	<p class="mt pl">MORE COMING SOON!</p>
+	<h1 class="heading mt bold">Senior Project</h1>
+	<p class="mt pl">MORE COMING SOON!</p>
+	<div class="footer container">
+		<div class="row m2">
+			<div class="col-sm-2"><a class="btn footer-item bold center" href="https://www.facebook.com/vinjamurynandan"><img class="float-left"style="width:30px; height:30px;"src="facebook-dark.png">
+				<p>Facebook</p></a>
+			</div>
+			<div class="col-sm-2"><a class="btn footer-item bold center" href="https://www.linkedin.com/in/nandan-vinjamury/"><img class="float-left"style="width:30px; height:30px;"src="linkedin-dark.png">
+				<p>LinkedIn</p></a>
+			</div>
+			<div class="col-sm-2"><a class="btn footer-item bold center" href="mailto:nvinjamury@gmail.com"><img class="float-left"style="width:30px; height:30px;"src="email-dark.png">
+				<p>Email</p></a>
+			</div>
+			<div class="col-sm-2"><a class="btn footer-item bold center" href="tel:562-556-4686"><img class="float-left"style="width:30px; height:30px;"src="phone-dark.png">
+				<p>Phone</p></a>
+			</div>
+			<div class="col-sm-2"><a class="btn footer-item bold center" href="NandanVinjamuryResume.pdf"><img class="float-left"style="width:20px; height:20px;"src="resume-dark.png">
+				<p>Resume</p></a>
+			</div>
+			<div class="col-sm-2">
+				<p class="footer-item smalltext">&copy; Created by Nandan Vinjamury<br>*********************************<br>Not Currently Optimized for Mobile</p>
+			</div>
+		</div>
+	</div>
     <!-- /.container -->
 
     <!-- Bootstrap core JavaScript -->
