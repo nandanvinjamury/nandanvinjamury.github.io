@@ -115,7 +115,7 @@ a:active {
 
 .heading{
 	text-transform: uppercase;
-	padding: 5% 0% 0% 5%;
+	padding: 5% 0% 0% 0%;
 }
 
 .subtitle{
@@ -124,7 +124,7 @@ a:active {
 }
 
 .subheading{
-	padding: 5% 0% 2% 5%;
+	padding: 5% 0% 2% 0%;
 }
 
 .footer{
