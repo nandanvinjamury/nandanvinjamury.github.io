@@ -1,186 +1,112 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Nandan Vinjamury">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="nandanvinjamurylogo.ico">
-    <title>Nandan Vinjamury</title>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Nandan Vinjamury</title>	
 </head>
-<body>
-		<div class="container nav">
-			<div class="row m1">
-				<img class="logo img" src="nandanvinjamurylogo.png" width="40" height="40">
-				<div class="col-sm-3">
-					<a href="index.html">
-					<div class="nav-item active">
-						Home
-					</div>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="portfoliopage.html">
-					<div class="nav-item">
-						Portfolio
-					</div>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="techblog.html">
-					<div class="nav-item">
-						Tech Blog
-					</div>
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="contactpage.html">
-					<div class="nav-item">
-						Contact Me
-					</div>
-					</a>
-				</div>
-			</div>
+<body class="bg-fixed bg-dark text-light font-main" style="background-image: url('img/programming2.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+	<!-- navbar -->
+	<nav class="flex justify-between items-center px-10 text-xl h-32">
+		<div class="font-bold text-4xl">nandan vinjamury</div>
+		<div class="flex justify-evenly h-32 items-end">
+			<a href="#" class="mx-5 font-bold border-b-8 border-purp-200">
+				<div class="mb-10">home</div>
+			</a>
+			<a href="#" class="mx-5 border-b-8 border-dark hover:border-purp-100">
+				<div class="mb-10">portfolio</div>
+			</a>
+			<a href="#" class="mx-5 border-b-8 border-dark hover:border-purp-100">
+				<div class="mb-10">contact</div>
+			</a>
 		</div>
-	<div style="clear:both;">
-		<h1 class="heading bold ml">Nandan Vinjamury</h1>
-		<h3 class="subtitle bold">Software Engineer</h1>
-		<div class="mt container borderline"></div>
-
-		<div class="container">
-			<h2 class="subheading bold">About Me</h2>
-			<div class="row">
-				<div class="col-sm-10">
-					<p align="justify">
-		  				Hi, I'm Nandan, a third year undergraduate senior at Cal Poly Pomona. I am pursuing a B.S. in Computer Science, and aim to work in a professional software engineering position at a game development company. Recognizing the necessary qualifications required within a strong candidate, I have built this website to convey my abilities at a capacity where I may be hired as a professional or an intern. Feel free to examine the rest of this website to learn more!
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<img class="img img-thumbnail" src="profileimage.jpg">
-				</div>
-			</div>
+	</nav>
+	<!-- banner -->
+	<div>
+		<img src="img/banner.png" alt="banner">
+	</div>
+	<!-- about me -->
+	<div class="bg-light text-dark text-lg">
+		<div class="px-10 py-12 font-bold text-4xl">
+			about me
 		</div>
-		<div class="mt container borderline"></div>
-
-		<div class="container">
-			<h2 class="subheading bold">Hobbies and Interests</h2>
-			<div class="row">
-				<div class="col-sm-3">
-					<img class="img img-thumbnail" src="beachimage.jpg">
-				</div>
-				<div class="col-sm-9">
-					<p align="justify">
-		  				When I have time to experiment, I enjoy cooking and tasting flavorful food. Additionally,   				I am deeply invested in playing video games (especially League of Legends) that inspire 
-		  				me to create based on their design. Other interests I have include writing stories, singing 
-		  				classical Indian Carnatic music, sketching pieces of art, watching movies and sports,
-		  				playing tennis, and going to the beach.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="mt container borderline"></div>
-
-		<div class="mt container">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="thumbnail">
-						<h2 class="subheading bold center borderline">Latest Blog Post</h2>
-						<img class="center" style="width: 100%;"src="bytedrop.png">
-						<div class="caption">
-							<h2 class="subheading bold">Post Title</h2>
-							<p class="subheading">Coming Soon!<br>
-												  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse... [Read More]
-							</p>
-						</div>
+		<div class="pb-24">
+			<div class="mx-12 grid lg:grid-rows-2 gap-10">
+				<!-- cards go here -->
+				<div class="card flex items-center border-r-8">
+					<img src="img/profileimage.jpg" alt="profile" class="h-32 sm:h-48 w-48 object-cover">
+					<div class="px-10">
+						<span class="font-bold">Introduction</span>
+						<p class="pt-2">Hi, I'm Nandan, a third year undergraduate senior at Cal Poly Pomona. I am pursuing a B.S. in Computer Science, and aim to work in a professional software engineering position at a game development company. Recognizing the necessary qualifications required within a strong candidate, I have built this website to convey my abilities at a capacity where I may be hired as a professional or an intern. Feel free to examine the rest of this website to learn more!</p>
 					</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="thumbnail">
-						<h2 class="subheading bold center borderline">Latest Project</h2>
-						<img class="center" style="width: 100%;"src="proj6.PNG">
-						<div class="caption">
-							<h2 class="subheading bold">S'more Madness</h2>
-							<a class="subheading" href="portfoliopage.html">Check it out on the portfolio page!
-							</a>
-						</div>
+				<div class="card flex justify-end items-center border-l-8">
+					<div class="px-10">
+						<span class="font-bold">Hobbies and Interests</span>
+						<p class="pt-2">When I have time to experiment, I enjoy cooking and tasting flavorful food. Additionally, I am deeply invested in playing video games (especially League of Legends) that inspire me to create based on their design. Other interests I have include writing stories, singing classical Indian Carnatic music, sketching pieces of art, watching movies and sports, playing tennis, and going to the beach.</p>
 					</div>
+					<img src="img/beachimage.jpg" alt="profile" class="h-32 sm:h-48 w-48 object-cover">
 				</div>
-			</div>
-		</div>
-		<div class="mt container borderline"></div>
-		<div class="my container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="thumbnail">
-						<h2 class="subheading bold center borderline">January 2019</h2>
-						<p class="subheading">
-							Coming Soon!<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse... [Read More]
-						</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="thumbnail">
-						<h2 class="subheading bold center borderline">Upcoming Events...</h2>
-						<ul class="subheading ml">
-							<li>event 1</li>
-							<li>event 2</li>
-							<li>event 3</li>
-							<li>event 4</li>
-							<li>event 5</li>
-							<li>event 6</li>
-							<li>event 7</li>
-							<li>event 8</li>
-							<li>event 9</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="thumbnail">
-						<h2 class="subheading bold center borderline">Passed Events...</h2>
-						<ul class="subheading ml">
-							<li>event 1</li>
-							<li>event 2</li>
-							<li>event 3</li>
-							<li>event 4</li>
-							<li>event 5</li>
-							<li>event 6</li>
-							<li>event 7</li>
-							<li>event 8</li>
-							<li>event 9</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	<div class="footer container">
-		<div class="row m2">
-			<div class="col-sm-2"><a class="btn footer-item bold center" href="https://www.facebook.com/vinjamurynandan"><img class="float-left"style="width:30px; height:30px;"src="facebook-dark.png">
-				<p>Facebook</p></a>
-			</div>
-			<div class="col-sm-2"><a class="btn footer-item bold center" href="https://www.linkedin.com/in/nandan-vinjamury/"><img class="float-left"style="width:30px; height:30px;"src="linkedin-dark.png">
-				<p>LinkedIn</p></a>
-			</div>
-			<div class="col-sm-2"><a class="btn footer-item bold center" href="mailto:nvinjamury@gmail.com"><img class="float-left"style="width:30px; height:30px;"src="email-dark.png">
-				<p>Email</p></a>
-			</div>
-			<div class="col-sm-2"><a class="btn footer-item bold center" href="tel:562-556-4686"><img class="float-left"style="width:30px; height:30px;"src="phone-dark.png">
-				<p>Phone</p></a>
-			</div>
-			<div class="col-sm-2"><a class="btn footer-item bold center" href="NandanVinjamuryResume.pdf"><img class="float-left"style="width:20px; height:20px;"src="resume-dark.png">
-				<p>Resume</p></a>
-			</div>
-			<div class="col-sm-2">
-				<p class="footer-item smalltext">&copy; Created by Nandan Vinjamury<br>*********************************<br>Not Currently Optimized for Mobile</p>
 			</div>
 		</div>
 	</div>
+	<!-- resume -->
+	<div class="flex justify-center">
+		<div>
+			<div class="mr-20 pt-24 pb-8 font-bold text-4xl">
+				want to learn more?
+			</div>
+			<div class="mr-20 text-xl">
+				read through my resume to look at my
+			</div>
+			<div class="mr-20 text-xl">
+				education, skills, and experience!
+			</div>
+		</div>
+		<div class="py-40 font-bold text-xl">
+			<a href="proj/NandanVinjamuryResumeFinal.pdf" class="bg-purp-100 px-8 py-10 rounded-md border-purp-200 border-b-8 shadow-xl hover:">check it out!</a>
+		</div>
+	</div>
+	<!-- testimonials -->
+	<div class="bg-light text-dark text-lg">
+		<div class="px-10 py-12 font-bold text-4xl">
+			testimonials
+		</div>
+		<div class="pb-24">
+			<div class="mx-64 grid lg:grid-rows-3 gap-20">
+				<!-- cards go here -->
+				<div class="mr-64 ml-32 card flex items-center border-t-8">
+					<div class="px-10">
+						<span class="">"I have always been impressed with Nandan’s ingenuity in engineering solutions, integrity as a team member, and leadership skills in large groups under any circumstances."</span>
+						<div class="font-bold text-purp-100 text-right">
+							-Kyle Turchik, High Moon Studios
+						</div>
+					</div>
+				</div>
+				<div class="ml-64 mr-32 card flex justify-end items-center border-t-8">
+					<div class="px-10 py-6">
+						<span class="">"Every Hackathon I participated in with Nandan as a teammate, he consistently demonstrated effective communication and collaboration with all members in the team.  His initiative, flexibility, and willingness to lead was paramount to our success, and he proved himself to be a valuable asset to any team."</span>
+						<div class="font-bold text-purp-100 text-right">
+							-Lance Dall, CS Major
+						</div>
+					</div>
+				</div>
+				<div class="mr-64 ml-32 card border-t-8 p-8 flex justify-end">
+					<div>
+						<span class="">"Nandan is a team player that knows what is needed for a project, and will strive to fulfill and exceed that need in all possible ways."</span>
+						<div class="font-bold text-purp-100 pt-8 text-right">
+							-Jonathan Fong, Blind Squirrel
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="p-20 flex justify-between font-bold">
+		<div>Buttons</div>
+		<div>&#169; 2020, nandan vinjamury</div>
+	</div>
 </body>
-
-<script>
-	
-</script>
-
 </html>
