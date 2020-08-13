@@ -27,29 +27,41 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="mb">
-      <h1 class="heading bold ml">Contact Me</h1>
-      <p class="mt ml pl"><strong>Visit my repositories:</strong> <a href="https://github.com/nandanvinjamury"> Github
-      </a></p>
-      <p class="mt ml pl"><strong>Send me a Friend Request:</strong> <a href="https://www.facebook.com/nandan.vinjamury"> Facebook </a></p>
-      <p class="mt ml pl"><strong>Connect me to your Network:</strong> <a href="https://www.linkedin.com/in/nandan-vinjamury/"> LinkedIn </a></p>
-      <p class="mt ml pl"><strong>Leave me a text:</strong> <a href="tel:562-556-4686">(562) 556-4686</a></p>
-      <form class=" mt mx px" action="/action_page.php">
-        <div class="form-group">
-          <label for="name"><p class="bold">Name:</p></label>
-          <input type="name" placeholder="Enter Name (coming soon)" class="form-control" id="name" required>
+
+    <div class="bg-light text-dark text-lg">
+      <div class="px-10 py-12 font-bold text-4xl">
+        Contact Me
+      </div>
+      <div class="grid lg:grid-cols-2">
+        <div class="ml-20">
+          <div class="py-4">
+            <label class="block font-bold mb-2" for="name">
+              Name
+            </label>
+            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name (Coming Soon)">
+          </div>
+          <div class="py-4">
+            <label class="block font-bold mb-2" for="email">
+              E-mail
+            </label>
+            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="E-mail (Coming Soon)">
+          </div>
+          <div class="pb-48 pt-4">
+            <label class="block font-bold mb-2" for="name">
+              Message
+            </label>
+            <input class="shadow appearance-none rounded w-700px h-400px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Message (Coming Soon)">
+          </div>
         </div>
-        <div class="form-group">
-          <label for="email"><p class="bold">Email:</p></label>
-          <input type="email" placeholder="Enter Email (coming soon)" class="form-control" id="email" required>
+        <div>
+          <p class="mt-32 py-10 font-bold text-right mr-48">Visit repositories: <a class="dbtn" href="https://github.com/nandanvinjamury">GitHub</a></p>
+          <p class="py-10 font-bold text-right mr-48">Send a Friend Request: <a class="dbtn" href="https://www.facebook.com/vinjamurynandan">Facebook</a></p>
+          <p class="mb-48 py-10 font-bold text-right mr-48">Connect to Network: <a class="dbtn" href="https://www.linkedin.com/in/nandan-vinjamury/">LinkedIn</a></p>
         </div>
-        <div class="form-group">
-          <label for="feedback"><p class="bold">Feedback:<br></p></label>
-          <textarea class="form-control" rows="5" placeholder="Coming Soon!" required></textarea>
-        </div>
-        <button type="submit" class="btn">Coming Soon</button>
-      </form>
+      </div>
     </div>
+
+    
 
     <!-- footer -->
     <div class="p-20 flex justify-between font-bold">

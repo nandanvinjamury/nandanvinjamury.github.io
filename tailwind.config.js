@@ -14,6 +14,7 @@ module.exports = {
         main: ['Open Sans'],
       },
       height: {
+        '5px': '5px',
         '100px': '100px',
         '200px': '200px',
         '300px': '300px',
@@ -24,6 +25,7 @@ module.exports = {
         '800px': '800px',
       },
       width: {
+        '5px': '5px',
         '100px': '100px',
         '200px': '200px',
         '300px': '300px',
