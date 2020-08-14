@@ -33,30 +33,33 @@
         Contact Me
       </div>
       <div class="grid lg:grid-cols-2">
-        <div class="ml-20">
+        <form class="ml-20" method="POST" action="https://formspree.io/mvowydkr">
           <div class="py-4">
             <label class="block font-bold mb-2" for="name">
               Name
             </label>
-            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name (Coming Soon)">
+            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="name" type="text" placeholder="Name">
           </div>
           <div class="py-4">
             <label class="block font-bold mb-2" for="email">
               E-mail
             </label>
-            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="E-mail (Coming Soon)">
+            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="email" type="email" placeholder="E-mail">
           </div>
-          <div class="pb-48 pt-4">
-            <label class="block font-bold mb-2" for="name">
+          <div class="py-4">
+            <label class="block font-bold mb-2" for="message">
               Message
             </label>
-            <input class="shadow appearance-none rounded w-700px h-400px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Message (Coming Soon)">
+            <textarea class="shadow appearance-none rounded md:w-500px h-400px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message" placeholder="Message" rows="4"></textarea>
           </div>
-        </div>
+          <div class="pb-48">
+            <input type="submit" class="dbtn" value="Submit">
+          </div>
+        </form>
         <div>
-          <p class="mt-32 py-10 font-bold text-right mr-48">Visit repositories: <a class="dbtn" href="https://github.com/nandanvinjamury">GitHub</a></p>
-          <p class="py-10 font-bold text-right mr-48">Send a Friend Request: <a class="dbtn" href="https://www.facebook.com/vinjamurynandan">Facebook</a></p>
-          <p class="mb-48 py-10 font-bold text-right mr-48">Connect to Network: <a class="dbtn" href="https://www.linkedin.com/in/nandan-vinjamury/">LinkedIn</a></p>
+          <p class="mt-32 py-10 font-bold lg:text-right lg:mr-32">Visit repositories: <a class="dbtn" href="https://github.com/nandanvinjamury">GitHub</a></p>
+          <p class="py-10 font-bold lg:text-right lg:mr-32">Send a Friend Request: <a class="dbtn" href="https://www.facebook.com/vinjamurynandan">Facebook</a></p>
+          <p class="mb-48 py-10 font-bold lg:text-right lg:mr-32">Connect to Network: <a class="dbtn" href="https://www.linkedin.com/in/nandan-vinjamury/">LinkedIn</a></p>
         </div>
       </div>
     </div>
