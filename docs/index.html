@@ -53,27 +53,47 @@
 			About Me
 		</div>
 		<div class="pb-24">
-			<div class="mx-12 grid lg:grid-rows-2 gap-10">
+			<div class="mx-12 grid md:grid-rows-2 md:gap-10">
 				<!-- cards go here -->
-				<div class="card flex items-center border-r-8">
-					<img src="img/profileimage.jpg" alt="profile" class="h-32 sm:h-48 w-48 object-cover">
+				<div class="card hidden md:flex items-center border-r-8">
+					<img src="img/profileimage.jpg" alt="profile" class="h-48 w-48 object-cover">
 					<div class="px-10">
 						<span class="font-bold">Introduction</span>
 						<p class="pt-2">Hi, I'm Nandan, a third year undergraduate senior at Cal Poly Pomona. I am pursuing a B.S. in Computer Science, and aim to work in a professional software engineering position at a game development company. Recognizing the necessary qualifications required within a strong candidate, I have built this website to convey my abilities at a capacity where I may be hired as a professional or an intern. Feel free to examine the rest of this website to learn more!</p>
 					</div>
 				</div>
-				<div class="card flex justify-end items-center border-l-8">
+				<!-- mobile intro card -->
+				<div class="card md:hidden border-b-8">
+					<img src="img/profileimage.jpg" alt="profile" class="object-cover">
+					<div class="py-6 px-4">
+						<span class="font-bold text-base">Introduction</span>
+						<p class="pt-2 text-xs">Hi, I'm Nandan, a third year undergraduate senior at Cal Poly Pomona. I am pursuing a B.S. in Computer Science, and aim to work in a professional software engineering position at a game development company. Recognizing the necessary qualifications required within a strong candidate, I have built this website to convey my abilities at a capacity where I may be hired as a professional or an intern. Feel free to examine the rest of this website to learn more!</p>
+					</div>
+				</div>
+
+				<div class="card hidden md:flex justify-end items-center border-l-8">
 					<div class="px-10">
 						<span class="font-bold">Hobbies and Interests</span>
 						<p class="pt-2">When I have time to experiment, I enjoy cooking and tasting flavorful food. Additionally, I am deeply invested in playing video games (especially League of Legends) that inspire me to create based on their design. Other interests I have include writing stories, singing classical Indian Carnatic music, sketching pieces of art, watching movies and sports, playing tennis, and going to the beach.</p>
 					</div>
 					<img src="img/beachimage.jpg" alt="profile" class="h-32 sm:h-48 w-48 object-cover">
 				</div>
+				
+				<!-- mobile hobbies card -->
+				<div class="md:hidden py-8"></div>
+				<div class="card md:hidden border-b-8">
+					<img src="img/beachimage.jpg" alt="profile" class="object-cover">
+					<div class="py-6 px-4">
+						<span class="font-bold text-base">Hobbies and Interests</span>
+						<p class="pt-2 text-xs">When I have time to experiment, I enjoy cooking and tasting flavorful food. Additionally, I am deeply invested in playing video games (especially League of Legends) that inspire me to create based on their design. Other interests I have include writing stories, singing classical Indian Carnatic music, sketching pieces of art, watching movies and sports, playing tennis, and going to the beach.</p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
 	<!-- resume -->
-	<div class="flex justify-center">
+	<div class="hidden md:flex justify-center">
 		<div>
 			<div class="mr-20 pt-24 pb-8 font-bold text-4xl">
 				Want to learn more?
@@ -89,15 +109,34 @@
 			<a href="proj/NandanVinjamuryResumeFinal.pdf" class="bg-purp-100 px-8 py-10 rounded-md border-purp-200 border-b-8 shadow-xl hover:border-purp-100">Check It Out!</a>
 		</div>
 	</div>
+
+	<!-- mobile resume -->
+	<div class="md:hidden">
+		<div>
+			<div class="mx-8 pt-24 pb-8 font-bold text-4xl">
+				Want to learn more?
+			</div>
+			<div class="mx-8 text-base">
+				Read through my resume to look at my
+			</div>
+			<div class="mx-8 text-base">
+				education, skills, and experience!
+			</div>
+		</div>
+		<div class="mx-8 mt-20 mb-40 font-bold text-base transform hover:scale-95">
+			<a href="proj/NandanVinjamuryResumeFinal.pdf" class="bg-purp-100 px-8 py-8 rounded-md border-purp-200 border-b-8 shadow-xl hover:border-purp-100">Check It Out!</a>
+		</div>
+	</div>
+
 	<!-- testimonials -->
 	<div class="bg-light text-dark text-lg">
 		<div class="px-10 py-12 font-bold text-4xl">
 			Testimonials
 		</div>
 		<div class="pb-24">
-			<div class="mx-64 grid lg:grid-rows-4 gap-20">
+			<div class="md:mx-64 grid md:grid-rows-4 sm: gap-10 md:gap-20">
 				<!-- cards go here -->
-				<div class="mr-64 ml-32 card flex items-center border-t-8">
+				<div class="mr-64 ml-32 card hidden md:flex items-center border-t-8">
 					<div class="px-10">
 						<span class="">"I have always been impressed with Nandan’s ingenuity in engineering solutions, integrity as a team member, and leadership skills in large groups under any circumstances."</span>
 						<div class="font-bold text-purp-100 text-right">
@@ -105,7 +144,17 @@
 						</div>
 					</div>
 				</div>
-				<div class="ml-64 mr-32 card flex justify-end items-center border-t-8">
+				<!-- mobile test 1 -->
+				<div class="mx-10 card md:hidden border-t-8">
+					<div class="px-4">
+						<p class="text-xs pt-4">"I have always been impressed with Nandan’s ingenuity in engineering solutions, integrity as a team member, and leadership skills in large groups under any circumstances."</p>
+						<div class="py-4 text-sm font-bold text-purp-100">
+							-Kyle Turchik, High Moon Studios
+						</div>
+					</div>
+				</div>
+
+				<div class="ml-64 mr-32 card hidden md:flex justify-end items-center border-t-8">
 					<div class="px-10 py-6">
 						<span class="">"Every Hackathon I participated in with Nandan as a teammate, he consistently demonstrated effective communication and collaboration with all members in the team.  His initiative, flexibility, and willingness to lead was paramount to our success, and he proved himself to be a valuable asset to any team."</span>
 						<div class="font-bold text-purp-100 text-right">
@@ -113,7 +162,18 @@
 						</div>
 					</div>
 				</div>
-				<div class="mr-64 ml-32 card border-t-8 p-8 flex justify-end">
+
+				<!-- mobile test 2 -->
+				<div class="mx-10 card md:hidden border-t-8">
+					<div class="px-4">
+						<p class="text-xs pt-4">"Every Hackathon I participated in with Nandan as a teammate, he consistently demonstrated effective communication and collaboration with all members in the team.  His initiative, flexibility, and willingness to lead was paramount to our success, and he proved himself to be a valuable asset to any team."</p>
+						<div class="py-4 text-sm font-bold text-purp-100">
+							-Lance Dall, CS Major
+						</div>
+					</div>
+				</div>
+
+				<div class="mr-64 ml-32 card border-t-8 p-8 hidden md:flex justify-end">
 					<div>
 						<span class="">"Nandan is a team player that knows what is needed for a project, and will strive to fulfill and exceed that need in all possible ways."</span>
 						<div class="font-bold text-purp-100 pt-8 text-right">
@@ -121,7 +181,18 @@
 						</div>
 					</div>
 				</div>
-				<div class="ml-64 mr-32 card flex justify-end items-center border-t-8">
+
+				<!-- mobile test 3 -->
+				<div class="mx-10 card md:hidden border-t-8">
+					<div class="px-4">
+						<p class="text-xs pt-4">"Nandan is a team player that knows what is needed for a project, and will strive to fulfill and exceed that need in all possible ways."</p>
+						<div class="py-4 text-sm font-bold text-purp-100">
+							-Jonathan Fong, Blind Squirrel Games
+						</div>
+					</div>
+				</div>
+
+				<div class="ml-64 mr-32 card hidden md:flex justify-end items-center border-t-8">
 					<div class="px-10 py-6">
 						<span class="">"I've worked with Nandan on several projects supporting the student game developer community. Nandan is dependable, cheerful, and constructive. He's someone I like to have on my team."</span>
 						<div class="font-bold text-purp-100 text-right">
@@ -129,12 +200,23 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- mobile test 4 -->
+				<div class="mx-10 card md:hidden border-t-8">
+					<div class="px-4">
+						<p class="text-xs pt-4">"I've worked with Nandan on several projects supporting the student game developer community. Nandan is dependable, cheerful, and constructive. He's someone I like to have on my team."</p>
+						<div class="py-4 text-sm font-bold text-purp-100">
+							-Peter Doria, Game Developer
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
 
 	<!-- footer -->
-	<div class="p-20 flex justify-between font-bold">
+	<div class="p-20 md:flex justify-between font-bold">
 		<div class="flex">
 			<a href="https://www.facebook.com/vinjamurynandan">
 				<svg class="mx-1 w-12 h-12 fill-current text-light transform hover:scale-105 transition ease-out duration-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -157,7 +239,7 @@
 				</svg>
 			</a>
 		</div>
-		<div class="text-xl pt-2">&#169; 2020, Nandan Vinjamury</div>
+		<div class="text-xl pt-8 md:pt-2">&#169; 2020, Nandan Vinjamury</div>
 	</div>
 
 	<script src="nav.js"></script>
