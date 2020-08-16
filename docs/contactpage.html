@@ -48,38 +48,38 @@
 
     <!-- Page Content -->
 
-    <div class="bg-light text-dark text-lg">
+    <div class="bg-light text-dark text-base md:text-lg">
       <div class="px-10 py-12 font-bold text-4xl">
         Contact Me
       </div>
-      <div class="grid lg:grid-cols-2">
-        <form class="ml-20" method="POST" action="https://formspree.io/mvowydkr">
+      <div class="grid md:grid-cols-2">
+        <form class="mx-10 md:ml-20" method="POST" action="https://formspree.io/mvowydkr">
           <div class="py-4">
             <label class="block font-bold mb-2" for="name">
               Name
             </label>
-            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="name" type="text" placeholder="Name">
+            <input class="shadow appearance-none rounded md:w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="name" type="text" placeholder="Name">
           </div>
           <div class="py-4">
             <label class="block font-bold mb-2" for="email">
               E-mail
             </label>
-            <input class="shadow appearance-none rounded w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="email" type="email" placeholder="E-mail">
+            <input class="shadow appearance-none rounded md:w-300px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="email" type="email" placeholder="E-mail">
           </div>
           <div class="py-4">
             <label class="block font-bold mb-2" for="message">
               Message
             </label>
-            <textarea class="shadow appearance-none rounded md:w-500px h-400px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message" placeholder="Message" rows="4"></textarea>
+            <textarea class="shadow appearance-none rounded w-64 md:w-500px md:h-400px py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" name="message" placeholder="Message" rows="4"></textarea>
           </div>
-          <div class="pb-48">
+          <div class="pb-8 md:pb-48">
             <input type="submit" class="dbtn" value="Submit">
           </div>
         </form>
         <div>
-          <p class="mt-32 py-10 font-bold lg:text-right lg:mr-32">Visit repositories: <a class="dbtn" href="https://github.com/nandanvinjamury">GitHub</a></p>
-          <p class="py-10 font-bold lg:text-right lg:mr-32">Send a Friend Request: <a class="dbtn" href="https://www.facebook.com/vinjamurynandan">Facebook</a></p>
-          <p class="mb-48 py-10 font-bold lg:text-right lg:mr-32">Connect to Network: <a class="dbtn" href="https://www.linkedin.com/in/nandan-vinjamury/">LinkedIn</a></p>
+          <p class="text-xs md:text-lg md:mt-32 py-10 font-bold mx-12 lg:text-right lg:mr-32">Visit repositories:<a class="dbtn" href="https://github.com/nandanvinjamury">GitHub</a></p>
+          <p class="text-xs md:text-lg py-10 font-bold mx-12 lg:text-right lg:mr-32">Send a Friend Request:<a class="dbtn" href="https://www.facebook.com/vinjamurynandan">Facebook</a></p>
+          <p class="text-xs md:text-lg mb-20 md:mb-48 py-10 font-bold mx-12 lg:text-right lg:mr-32">Connect to Network:<a class="dbtn" href="https://www.linkedin.com/in/nandan-vinjamury/">LinkedIn</a></p>
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@
     
 
     <!-- footer -->
-    <div class="p-20 flex justify-between font-bold">
+    <div class="p-20 md:flex justify-between font-bold">
       <div class="flex">
         <a href="https://www.facebook.com/vinjamurynandan">
           <svg class="mx-1 w-12 h-12 fill-current text-light transform hover:scale-105 transition ease-out duration-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -110,7 +110,7 @@
           </svg>
         </a>
       </div>
-      <div class="text-xl pt-2">&#169; 2020, Nandan Vinjamury</div>
+      <div class="text-xl pt-8 md:pt-2">&#169; 2020, Nandan Vinjamury</div>
     </div>
     <script src="nav.js"></script>
   </body>
