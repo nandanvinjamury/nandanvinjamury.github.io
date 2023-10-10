@@ -1,43 +1,35 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [],
+  content: ["./src/**/*.{js,jsx}"],
+  mode: "jit",
   theme: {
     extend: {
       colors: {
-        dark: '#121212',
-        purp: {
-          100: '#957fef',
-          200: '#7161ef',
-        },
-        light: '#f5f5f5'
+        primary: "#E8E9EB",
+        secondary: "#006D77",
+        tertiary: "#151030",
+        peacockTeal: "#1EAE98",
+        peacockGold: "#DAA520",
+        peacockPurple: "#2B2D42",
+        peacockMagenta: "#8A1C7C",
+        peacockGreen: "#379392",
+        heroColor: "#EF9F67",
+        "black-100": "#100d25",
+        "black-200": "#090325",
+        "white-100": "#ffffff",
       },
-      fontFamily: {
-        main: ['Open Sans'],
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
       },
-      height: {
-        '5px': '5px',
-        '100px': '100px',
-        '200px': '200px',
-        '240px': '240px',
-        '300px': '300px',
-        '400px': '400px',
-        '500px': '500px',
-        '600px': '600px',
-        '700px': '700px',
-        '800px': '800px',
+      screens: {
+        xs: "450px",
       },
-      width: {
-        '5px': '5px',
-        '100px': '100px',
-        '200px': '200px',
-        '300px': '300px',
-        '400px': '400px',
-        '500px': '500px',
-        '600px': '600px',
-        '700px': '700px',
-        '800px': '800px',
-      }
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/feathers5.png')",
+      },
     },
   },
-  variants: {},
   plugins: [],
-}
+};
+
+
